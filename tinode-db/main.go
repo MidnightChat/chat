@@ -12,9 +12,7 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/MidnightChat/chat/server/db/mongodb"
 	_ "github.com/MidnightChat/chat/server/db/mysql"
-	_ "github.com/MidnightChat/chat/server/db/rethinkdb"
 	"github.com/MidnightChat/chat/server/store"
 	jcr "github.com/MidnightChat/jsonco"
 )

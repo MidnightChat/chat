@@ -61,15 +61,6 @@
 			"mysql": {
 				"database": "MidnightChat",
 				"dsn": "$MYSQL_DSN?parseTime=true&collation=utf8mb4_unicode_ci"
-			},
-			"rethinkdb": {
-				"database": "MidnightChat",
-				"addresses": "rethinkdb"
-			},
-			"mongodb": {
-				"database": "MidnightChat",
-				"addresses": "mongodb",
-				"replica_set": "rs0"
 			}
 		}
 	},

@@ -35,9 +35,7 @@ import (
 	_ "github.com/MidnightChat/chat/server/auth/token"
 
 	// Database backends
-	_ "github.com/MidnightChat/chat/server/db/mongodb"
 	_ "github.com/MidnightChat/chat/server/db/mysql"
-	_ "github.com/MidnightChat/chat/server/db/rethinkdb"
 
 	// Push notifications
 	"github.com/MidnightChat/chat/server/push"

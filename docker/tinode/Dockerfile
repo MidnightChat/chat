@@ -16,7 +16,7 @@ ENV VERSION=$VERSION
 ARG BINVERS=$VERSION
 
 LABEL maintainer="MidnightChat Team <info@MidnightChat.co>"
-LABEL name="MidnightChatChatServer"
+LABEL name="MidnightChatServer"
 LABEL version=$VERSION
 
 # Build-time options.
@@ -26,7 +26,7 @@ LABEL version=$VERSION
 # `--build-arg TARGET_DB=mysql` to build for MySQL or
 # `--build-arg TARGET_DB=mongodb` to build for MongoDB.
 # `--build-arg TARGET_DB=alldbs` to build a generic MidnightChat docker image.
-ARG TARGET_DB=rethinkdb
+ARG TARGET_DB=mysql
 ENV TARGET_DB=$TARGET_DB
 
 # Runtime options.

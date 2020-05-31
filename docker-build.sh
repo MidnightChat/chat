@@ -21,7 +21,7 @@ if [[ ${ver[2]} != *"-"* ]]; then
   FULLRELEASE=1
 fi
 
-dbtags=( mysql mongodb rethinkdb alldbs )
+dbtags=( mysql alldbs )
 
 # Build an images for various DB backends
 for dbtag in "${dbtags[@]}"

@@ -17,12 +17,10 @@ require (
 	github.com/prometheus/common v0.9.1
 	github.com/MidnightChat/jsonco v1.0.0
 	github.com/MidnightChat/snowflake v1.0.0
-	go.mongodb.org/mongo-driver v1.3.1
 	golang.org/x/crypto v0.0.0-20200320181102-891825fb96df
 	golang.org/x/net v0.0.0-20200320220750-118fecf932d8
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/text v0.3.2
 	google.golang.org/api v0.20.0
 	google.golang.org/grpc v1.28.0
-	gopkg.in/rethinkdb/rethinkdb-go.v5 v5.1.0
 )
