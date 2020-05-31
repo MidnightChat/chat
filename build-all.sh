@@ -15,7 +15,7 @@ goplat=( darwin windows linux )
 # Supported CPU architectures: amd64
 goarc=( amd64 )
 # Supported database tags
-dbadapters=( mysql mongodb rethinkdb )
+dbadapters=( mysql )
 dbtags=( ${dbadapters[@]} alldbs )
 
 for line in $@; do
